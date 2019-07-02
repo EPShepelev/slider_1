@@ -1,0 +1,34 @@
+/*zero padding*/
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/*set size and position of container for slides*/
+
+.container {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 50px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	text-align: center;
+}
+
+
+/*set style for arrows*/
+.buttons {
+	font-size: 200%;
+	cursor: pointer;
+}
+
+.buttons:hover {
+	font-size: 200%;
+	color: #fff;
+	background-color: #000;
+}
+
+
