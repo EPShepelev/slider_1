@@ -21,14 +21,17 @@
 
 /*set style for arrows*/
 .buttons {
+	border: none;
+	background: none;
 	font-size: 200%;
 	cursor: pointer;
+	color: #120ef5;
 }
 
 .buttons:hover {
 	font-size: 200%;
 	color: #fff;
-	background-color: #000;
+	background-color: #120ef5;
 }
 
 
